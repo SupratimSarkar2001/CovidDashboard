@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-header{
+    padding: 1em;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.main-body{
+    margin: 1em;
+    padding: 1.5em;
+    border: 0.5px solid #a1a1a1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(pic.jpg);
+    
+   
+
+}
+
+.main-stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.total-cases{
+    color: rgb(224, 100, 16);
+}
+
+.active-cases{
+    color: rgb(77, 47, 245);
+}
+
+.recovered-cases{
+    color: rgb(235, 48, 195);
+}
+
+.deaths{
+    color: rgb(178, 34, 34);
+}
+
+.today-cases{
+    color: rgb(14, 19, 97);
+}
+
+.test{
+    color: rgb(218, 10, 55);
+}
+.main-button{
+    border: none;
+    background-color: rgb(82, 163, 50);
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 1em;
+}
